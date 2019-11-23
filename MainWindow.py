@@ -78,7 +78,7 @@ def pagJoacaSport():
 
 #Deschidere pagina principala
 mainWindow = Tk()
-mainWindow.geometry("400x400")
+mainWindow.geometry("800x800")
 mainWindow.title("Cum sa iti pastrezi sanatatea")
 
 startButton = Button(mainWindow, text="Start", fg="green" , command= openPagInv)
